@@ -15,7 +15,7 @@ sections:
     type: intro
 menus:
   main:
-    title: Homez1
+    title: Home
     weight: 1
 layout: home
 ---
