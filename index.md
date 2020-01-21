@@ -6,7 +6,9 @@ sections:
     section_id: hero
     title: Hero
     type: hero
-  - actions: []
+  - actions:
+      - label: Learn Stuffs
+        url: /
     component: intro.html
     content: >-
       This is the "aboutz" excerpt. It can be used to provide a paragraph about
