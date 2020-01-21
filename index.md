@@ -4,7 +4,7 @@ sections:
   - component: hero.html
     content: Test 123
     section_id: hero
-    title: Hero
+    title: Heroz
     type: hero
   - actions:
       - label: Learn Stuffs
