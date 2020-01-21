@@ -6,9 +6,9 @@ thumb_img_path: /images/10.jpg
 excerpt: This is my excerpt
 menus:
   main:
-    identifier: asdf
-    title: test
-    weight: -4
+    identifier: ''
+    title: ''
+    weight: ''
 layout: post
 ---
 This is test content!
