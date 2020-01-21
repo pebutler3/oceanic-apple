@@ -6,7 +6,7 @@ palette: green
 header:
   has_nav: false
   logo_img: images/logo.png
-  title: Ampersand
+  title: Go Build Websites!
 footer:
   content: '&copy; All rights reserved.'
   has_social: false
