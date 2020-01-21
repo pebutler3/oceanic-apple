@@ -4,7 +4,7 @@ permalink: '/:title/'
 layout_style: grid
 palette: green
 header:
-  has_nav: false
+  has_nav: true
   logo_img: images/logo.png
   title: Go Build Websites!
 footer:
