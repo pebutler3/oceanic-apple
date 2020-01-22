@@ -2,7 +2,7 @@
 title: Home
 sections:
   - component: hero.html
-    content: Test 123
+    content: You're my hero!
     section_id: hero
     title: Heroz
     type: hero
