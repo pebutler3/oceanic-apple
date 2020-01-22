@@ -185,6 +185,51 @@ collections:
             required: false
             hint: Home page sections
             types:
+              - name: hero
+                widget: object
+                label: Hero Section
+                fields:
+                  - widget: string
+                    name: title
+                    label: Title
+                    required: true
+                    hint: The title of the section
+                  - widget: string
+                    name: section_id
+                    label: Element ID
+                    required: false
+                  - widget: hidden
+                    name: component
+                    label: Component
+                    required: true
+                    default: intro.html
+                  - widget: markdown
+                    name: content
+                    label: Content
+                    required: false
+                    hint: The text content of the section.
+                  - widget: list
+                    name: actions
+                    label: Action Buttons
+                    required: false
+                    fields:
+                      - widget: string
+                        name: label
+                        label: Label
+                        required: true
+                        hint: The text displayed inside the button
+                      - widget: string
+                        name: url
+                        label: Button URL
+                        required: false
+                  - widget: hidden
+                    name: type
+                    label: Reference Type Name
+                    required: true
+                    hint: >-
+                      Name of the Stackbit object model, used by fields of type
+                      reference
+                    default: intro
               - name: intro
                 widget: object
                 label: Intro Section
