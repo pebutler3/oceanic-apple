@@ -1,8 +1,8 @@
 title: Go Build Websites!
 baseurl: /
 permalink: '/:title/'
-layout_style: list
-palette: green
+layout_style: grid
+palette: black
 header:
   has_nav: true
   logo_img: /images/GBW-LOGO.svg
