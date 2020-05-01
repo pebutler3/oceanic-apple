@@ -1,6 +1,6 @@
-title: Go Build Websites!
+title: Go Build Websites!z
 baseurl: /
-permalink: '/:title/'
+permalink: /:title/
 layout_style: grid
 palette: black
 header:
@@ -8,7 +8,7 @@ header:
   logo_img: /images/GBW-LOGO.svg
   title: Go Build Websites!
 footer:
-  content: '&copy; All rights reserved.'
+  content: "&copy; All rights reserved."
   has_social: false
   links: []
 sass:
